@@ -1,4 +1,3 @@
-const { test } = require('node:test');
 const helloWorld = require('./helloWorld');
 
 describe('Hello World', function() {

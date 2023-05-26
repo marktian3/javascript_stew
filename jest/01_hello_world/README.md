@@ -1,1 +1,1 @@
-Run using `npm test helloWorld.spec.js`
+Run tests using `npm test helloWorld.spec.js`
