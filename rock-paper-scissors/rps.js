@@ -20,14 +20,24 @@ function playRound(playerChoice, computerChoice) {
 
 }
 
-function playGame(rounds) {
+// function playGame(rounds) {
 
-  for (let i = 0; i < rounds; i++){
-    let playerChoice = prompt("Please enter your selection: (rock, paper, or scissors)");
-    playerChoice = playerChoice.toLowerCase();
-    let computerChoice = getComputerChoice();
-    console.log(playRound(playerChoice, computerChoice));
-  }
+//   for (let i = 0; i < rounds; i++){
+//     let playerChoice = prompt("Please enter your selection: (rock, paper, or scissors)");
+//     playerChoice = playerChoice.toLowerCase();
+//     let computerChoice = getComputerChoice();
+//     console.log(playRound(playerChoice, computerChoice));
+//   }
+// }
+
+function startGame() {
+  document.getElementById("start-button").remove();
+  document.getElementById("rps-game").style.display = "";
 }
 
-playGame(5);
+const startButton = document.getElementById("start-button");
+startButton.addEventListener("click", startGame);
+element.addEventListener("click", startGame);
+
+
+// playGame(5);
