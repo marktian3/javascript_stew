@@ -8,19 +8,22 @@
 </head>
 <body>
   <h1>Rock Paper Scissors</h1>
-  <button id="start-button">Start Game</button>
-  <div id="rps-game" style="display:none">
-    <button class="selection">Rock</button>
-    <button class="selection">Paper</button>
-    <button class="selection">Scissors</button>
+
+  <div id="rps-game">
+    <button id="selection-rock">Rock</button>
+    <button id="selection-paper">Paper</button>
+    <button id="selection-scissors">Scissors</button>
     <div id="player">
       <div id="player-message">Player Score: </div>
-      <div class="player-win-count">0</div>
+      <div id="player-win-count">0</div>
     </div>
     <div id="computer">
       <div id="computer-message">Computer Score: </div>
-      <div class="computer-win-count">0</div>
+      <div id="computer-win-count">0</div>
     </div>
+    <div id="c-choice"></div>
+    <div id="result"></div>
+    <button id="restart" style="display:none">Restart</button>
   </div>
   <script src="rps.js"></script>
 </body>
